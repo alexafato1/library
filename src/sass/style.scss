@@ -8,8 +8,14 @@
 @import './helpers/margin.scss';
 @import './helpers/padding.scss';
 @import './helpers/sizes.scss';
+@import './components/dropdown';
+@import './components/ui';
+@import './components/card';
+@import './components/modal.scss';
+
 
 *{
-  color: $success;
+  color: black;
+  outline: transparent;
 }
 

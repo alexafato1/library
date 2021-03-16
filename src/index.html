@@ -11,23 +11,69 @@
     
     <div class='container'>1
     <div class='active'>2</div>
-    <div class='findme '>
-        <div class="some">s</div>
-        <div class="some">s</div>
-        <div class="some">s</div>
-        <div class="more">m</div>
-        <div class="more">m</div>
-    </div>
-    <button class='btn btn-outline-primary'>ClickMe</button>
-    <button class='btn btn-outline-danger'>ClickMe</button>
-    <hr>
-    <button class='btn btn-primary'>ClickMe</button>
-    <button class='btn btn-danger'>ClickMe</button>
-    <button class='btn btn-block'>ClickMe</button>
-
+  
+   
     
 
+    
+    <!---Dropdown menu
+   <div class="dropdown ">
+       <button class="btn btn-primary  dropdown-toggle" id='dropDownButton'>Dropdown button</button>
+       <div class="dropdown-menu" data-toggle-id='dropDownButton'>
+           <a href="#" class="dropdown-item">Item 1</a>
+           <a href="#" class="dropdown-item">Item 2</a>
+           <a href="#" class="dropdown-item">Item 3</a>
+       </div>
+   </div>-->
+   <div class="wrap">
+
+   </div>
+
+   <!--Cards-->
+   <div class="cards d-flex f-space-around">
+   <div class="card">
+       <img class='card-img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="photo" class="card-img">
+       <div class="card-body">
+           <div class="card-title">Card</div>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed quis quae delectus. Deserunt, officiis! Optio, pariatur? Harum excepturi dolore vero doloremque possimus omnis sint nam nobis ipsum sapiente quia reprehenderit corporis voluptates eius, minus, consectetur a 
+               reiciendis, explicabo quam vel accusantium! Eaque inventore ab ratione enim dolores reiciendis eligendi?</p>
+           <a class="btn btn-primary" href='' data-target='#exampleModal' data-toggle="modal">Link to</a>
+       </div>
+    </div>
+    <div class="card">
+        <img class='card-img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="photo" class="card-img">
+        <div class="card-body">
+            <div class="card-title">Card</div>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed quis quae delectus. Deserunt, officiis! Optio, pariatur? Harum excepturi dolore vero doloremque possimus omnis sint nam nobis ipsum sapiente quia reprehenderit corporis voluptates eius, minus, consectetur a 
+                reiciendis, explicabo quam vel accusantium! Eaque inventore ab ratione enim dolores reiciendis eligendi?</p>
+            <a class="btn btn-primary" href='' data-target='#exampleModal'  data-toggle="modal">Link to</a>
+        </div>
      </div>
+</div>
+    <!--Modal-->
+    <div class="modal" id='exampleModal'>
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <button class='close' data-close>
+                  <span>&times;</span>
+              </button>
+              <div class="modal-header">
+                  <div class="modal-title">
+                      Modal title
+                  </div>
+              </div>
+              <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut impedit dolore ex atque! 
+                  Harum ipsam officia exercitationem iste nesciunt cumque, error, tempore hic reprehenderit sed non dolorum ducimus nisi!
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-danger" data-close >Close</button>
+                  <button class="btn btn-primary" data-target>Go</button>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
     <script src='script.js'></script>
 </body>
 </html>
