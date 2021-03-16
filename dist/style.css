@@ -1,4 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
+
+.container {
+  max-width: 640px;
+  padding: 0px 15px;
+  margin: 0px auto; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #025fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #343a40;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.2s; }
+  .btn:hover {
+    background-color: #357fff;
+    color: white; }
+  .btn-primary {
+    background-color: #025fff;
+    border-color: #025fff;
+    color: #ffff; }
+    .btn-primary:hover {
+      background-color: #004cce; }
+  .btn-danger {
+    background-color: #ea2e41;
+    border-color: #ea2e41;
+    color: #ffff; }
+    .btn-danger:hover {
+      background-color: #d01528; }
+  .btn-outline-primary {
+    border-color: #025fff;
+    color: #025fff; }
+    .btn-outline-primary:hover {
+      background-color: #004cce; }
+  .btn-outline-danger {
+    border-color: #ea2e41;
+    color: #ea2e41; }
+    .btn-outline-danger:hover {
+      background-color: #d01528; }
+  .btn-block {
+    display: block;
+    width: 100%; }
+
+.text-center {
+  text-align: center; }
+
+.block-center {
+  margin: 0 auto; }
+
+.hidden {
+  visibility: hidden; }
+
+.visible {
+  visibility: visible; }
+
+.d-none {
+  display: none; }
+
+.d-block {
+  display: block; }
+
+.d-flex {
+  display: flex; }
+
+.f-center {
+  justify-content: center;
+  align-items: center; }
+
+.f-space-around {
+  justify-content: space-around; }
+
+.f-space-between {
+  justify-content: space-between; }
+
+.fz-16 {
+  font-size: 16px; }
+
+.fz-20 {
+  font-size: 20px; }
+
+.fz-24 {
+  font-size: 24px; }
+
+.bold {
+  font-weight: bold; }
+
+.thin {
+  font-weight: 300; }
+
+.italic {
+  font-style: italic; }
+
+.text-color-primary {
+  color: #025fff; }
+
+.text-color-danger {
+  color: #ea2e41; }
+
+.m10 {
+  margin: 10px; }
+
+.m20 {
+  margin: 20px; }
+
+.p10 {
+  padding: 10px; }
+
+.p20 {
+  padding: 20px; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-300 {
+  width: 300px; }
+
+.w-500 {
+  width: 500px; }
+
+.w-100 {
+  width: 100%; }
+
+.h-50 {
+  height: 50%; }
+
+.h-300 {
+  height: 300px; }
+
+.h-500 {
+  height: 500px; }
+
+* {
+  color: #2a9924; }

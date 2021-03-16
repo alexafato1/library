@@ -1,5 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import './general/base.scss';
+@import './general/variables.scss';
+@import './general/typography.scss';
+@import './components/button.scss';
+@import './helpers/align.scss';
+@import './helpers/display.scss';
+@import './helpers/font.scss';
+@import './helpers/margin.scss';
+@import './helpers/padding.scss';
+@import './helpers/sizes.scss';
+
+*{
+  color: $success;
 }
+

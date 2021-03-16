@@ -1,24 +1,24 @@
+const $ = function(selector) {
+    return new $.prototype.init(selector);
+};
 
-(() => {
-   const $ = function (selector) {
-       const elements = document.querySelectorAll(selector);
-       const obj = {};
+$.prototype.init = function(selector) {
+  if (!selector) {
+      return this;//{}
+  }
+  if (selector.tagName){
+      this[0] = selector;
+      this.length = 1
+      return this;
+  }
 
-       obj.hide = () => {
-          elements.forEach(elem => {
-              elem.style.display = 'none';
-          })
-          return obj;
-       }; 
+  Object.assign(this, document.querySelectorAll(selector));
+  this.length = document.querySelectorAll(selector).length
+  return this;
+};
 
-       obj.show = () => {
-        elements.forEach(elem => {
-            elem.style.display = '';
-        })
-        return obj;
-     }; 
-     return obj;
-   };
-   window.$ = $;
-})();
+$.prototype.init.prototype = $.prototype;
 
+window.$ = $;
+
+export default $;

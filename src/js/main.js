@@ -1,3 +1,18 @@
-import './lib/core';
+import './lib/lib';
+import $ from './lib/lib';
 
- $('.active').hide();
+
+
+
+
+$('.btn').on('click', () =>{
+    $('.more').fadeToggle(800);
+})
+
+
+ 
+
+
+
+
+
